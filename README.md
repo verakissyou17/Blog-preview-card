@@ -25,8 +25,8 @@ Blog preview card
 
 ### Links
 
-- Solution URL: [](https://github.com/verakissyou17/Blog-preview-card)
-- Live Site URL: [](https://verakissyou17.github.io/Blog-preview-card/)
+- Solution URL: (https://github.com/verakissyou17/Blog-preview-card)
+- Live Site URL: (https://verakissyou17.github.io/Blog-preview-card/)
 
 ## My process
 
@@ -43,5 +43,5 @@ Finish all my projects and improve my skills.
 
 ## Author
 
-- Website - [](Vera)
-- Frontend Mentor - [](https://www.frontendmentor.io/profile/verakissyou17)
+- Website - (Vera)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/verakissyou17)
