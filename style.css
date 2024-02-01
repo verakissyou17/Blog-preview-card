@@ -1,0 +1,83 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors */
+  --Yellow: hsl(47, 88%, 63%);
+  --White: hsl(0, 0%, 100%);
+  --Grey: hsl(0, 0%, 50%);
+  --Black: hsl(0, 0%, 7%);
+}
+
+body {
+  background-color: var(--Yellow);
+  font-family: 'Figtree', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10em auto;
+}
+
+main {
+  background-color: var(--White);
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 1.2em;
+  border: 1px solid var(--Black);
+  border-radius: 15px;
+  box-shadow: 6px 6px  var(--Black);
+}
+
+h1 {
+  font-size: 1.45rem;
+  font-weight: 800;
+  margin: .5em 0;
+}
+
+  h1:hover {
+    color: var(--Yellow);
+  }
+
+  .card-title {
+    background-color: var(--Yellow);
+    display: inline-block;
+    font-weight: 800;
+    padding: .3em 1em;
+    border-radius: 5px;
+    margin: 1.5em 0;
+}
+
+.article-image {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card-text {
+  color: var(--Grey);
+}
+
+.author-card {
+  display: flex;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.author-card img {
+  width: 15%;
+  margin-right: .7em;
+}
+
+.author-card p {
+  font-weight: 800;
+}
+
+footer {
+  margin: 1.5em auto
+}
